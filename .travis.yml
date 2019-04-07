@@ -1,0 +1,11 @@
+language: julia
+os:
+  - linux
+  - osx
+julia:
+  - 0.7
+  - nightly
+sudo: false
+notifications:
+  email:
+    - code@donner.at
